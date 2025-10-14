@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- 按钮：点击弹出菜单 -->
+    <Button
+        android:id="@+id/btn_show_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="打开菜单" />
+
+    <!-- 测试文本 -->
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试文本"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp" />
+
+</LinearLayout>
